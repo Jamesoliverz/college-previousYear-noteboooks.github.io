@@ -1,0 +1,360 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(image/boook.jpg);
+    background-size: cover;
+     border-bottom: 1px solid rgba(255, 255, 0, 0.383);
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color:transparent ;
+    /* box-shadow: 2px 3px 20px rgba(105, 105, 105, 0.188); */
+   padding-top: 30px;
+    position: fixed;
+   
+
+}
+.navbar #logo{
+    font-size: 20px;
+    text-decoration: none;
+    float: left;
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+    font-family: serif;
+}
+.navbar #logo span{
+    color: yellow;
+    text-shadow : 5px 5px 10px rgb(255, 255, 0) ;
+}
+.navbar ul
+{
+    float: right;
+}
+.navbar li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;   
+}
+.navbar li a{
+    color : rgb(255, 255, 255);
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.5s ;
+    
+}
+.navbar li .active{
+    color: yellow;
+}
+.navbar li a:hover{
+    color: yellow;
+    text-shadow : 5px 5px 10px rgb(255, 255, 0) ;
+}
+header h4,h1,p{
+    color: white; 
+    margin-left: 100px;  
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+header h4{
+    padding-top: 200px;
+}
+header h1{
+    font-size: 100px;
+    font-family: serif;
+}
+header .header-btn{
+    border-radius: 6px;
+    width: auto;
+    height: auto;
+    background:rgb(203, 203, 17) ;
+    text-decoration: none;
+    margin-left: 100px; 
+    margin-top: 10px;
+    padding: 10px 30px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: sans-serif;
+    transition: 0.5s ease-out;
+}
+header .header-btn:hover{
+    box-shadow: 5px 5px 20px yellow , inset -2px -2px 10px rgba(255, 255, 255, 0.827);
+    padding: 10px 40px;
+    font-weight: bold;
+}
+
+.h-about-section{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    border-bottom: 1px solid rgba(255, 255, 0, 0.383);
+    
+}
+ #section-title{
+    font-size: 50px;
+    padding-top : 80px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 10px white;
+}
+ #section-title span{
+    color: yellow;
+    text-shadow: 2px 2px 15px yellow;
+}
+.h-about-section #discription-about{
+    font-size: 20px;
+    font-family: sans-serif;
+    float: right;
+    margin-top: 100px;
+    margin-right: 50px;
+
+}
+.h-about-section #discription-about span{
+    color: yellow;
+}
+.h-about-section #img-section-title{
+    width: 35%;
+    height: 450px;
+    background-color:transparent;
+    margin-left: 90px;
+    margin-top: 100px;
+    
+    transition: 0.5s;
+}
+.h-about-section #img-section-title img{
+    width: 100%;
+    height: 100%;
+    
+  
+}
+.h-paper-section{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white    ;
+    background-size: cover;
+    border-bottom: 1px solid rgba(255, 255, 0, 0.383);
+    
+}
+.h-paper-section #section-title{
+    font-size: 50px;
+    padding-top : 80px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 10px white;   
+}
+.h-paper-section #section-title span{
+    color: yellow;
+    text-shadow: 2px 2px 15px yellow;
+}
+.h-paper-section #title-topics{
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+.h-paper-section li{
+    list-style: none;
+    margin-left: 50px;
+    display: block;
+    padding: 10px 0px;
+    margin-top: 20px;
+   width: 600px;
+   border-radius: 20px;
+   transition: 0.5s ;
+}
+.h-paper-section .E-subject{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin: 10px 0px;
+    margin-left: 130px;
+    font-size: 20px;
+    border-radius: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: 0.5s ;
+}
+.h-paper-section li:hover{
+    border-bottom: 1px solid yellow;  
+}
+.h-paper-section li:hover .E-subject{
+    color: yellow;
+    
+}
+.h-paper-section #h-paper-btn{
+    border-radius: 6px;
+    width: auto;
+    height: auto;
+    background: yellow; 
+    text-decoration: none;
+    margin-left: 200px; 
+    margin-top: 10px;
+    padding: 10px 30px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: center;
+    font-family: cursive;
+    transition: 0.5s ease-out;
+    box-shadow: -5px -5px 20px rgb(252, 239, 63), inset -2px -20px 10px rgb(255, 255, 99);
+}
+.h-paper-section #h-paper-btn:hover{
+    box-shadow: -5px -15px 20px  rgb(23, 19, 1),  5px 5px 20px rgb(23, 23, 23);
+    padding: 10px 40px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-weight: bold;
+}
+.h-Contact-section{
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+    color: white;
+    
+}
+.h-Contact-section p{
+   
+    float: left;
+    width: 40%;
+}
+.h-Contact-section span{
+    color: yellow;
+    font-weight: bold;
+}
+.h-Contact-section a{
+    text-decoration: none;
+    color: red;
+}
+
+
+
+/*==============================================================
+================= previous paper WEb PAGE style Start ==============
+=================================================================*/
+
+
+.PYP-paper-section{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white    ;
+    background-size: cover;
+    border-bottom: 1px solid rgba(255, 255, 0, 0.383);
+    padding-bottom: 20px;
+}
+.PYP-paper-section #section-title{
+    font-size: 50px;
+    padding-top : 80px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 10px white;   
+}
+.PYP-paper-section #section-title span{
+    color: yellow;
+    text-shadow: 2px 2px 15px yellow;
+}
+.PYP-paper-section #title-topics{
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+.PYP-paper-section li{
+    list-style: none;
+    margin-left: 50px;
+    display: block;
+    padding: 10px 0px;
+    margin-top: 20px;
+   width: 600px;
+   border-radius: 20px;
+   transition: 0.5s ;
+}
+.PYP-paper-section .E-subject{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin: 10px 0px;
+    margin-left: 130px;
+    font-size: 20px;
+    border-radius: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: 0.5s ;
+}
+.PYP-paper-section li:hover{
+    border-bottom: 1px solid yellow;  
+}
+.PYP-paper-section li:hover .E-subject{
+    color: yellow;
+    
+}
+
+
+
+/*==============================================================
+================= contact WEb PAGE style Start ==============
+=================================================================*/
+.contact-page{
+    width: 100%;
+    height:  500px;
+    background-color: black;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.contact-page .contact-area{
+    color: white;
+    width: 40%;
+    height: auto;
+    margin-left: 120px;
+    /* float: left; */
+    padding-bottom: 50px;
+    float: left;
+   
+}
+.contact-page .contact-area .input{
+    display: block;
+    width: 50%;
+    height: 50px;
+    color: red;
+    background-color: black;
+    outline: none;
+    border: none;
+    padding-left: 20px;
+    box-shadow: 2px 2px 3px rgba(255, 255, 255, 0.382);
+    margin-left: 102px;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    transition:0.2s ;
+}
+.contact-page .contact-area .comment{
+    max-height: 200px;
+    min-height: 100px;
+    max-width: 50%;
+}
+.contact-page .contact-area  #send-mail{
+    text-decoration: none;
+    box-shadow: 2px 2px 3px rgba(255, 255, 255, 0.382);
+    padding: 5px 40px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    margin-left: 200px;
+    transition: 0.5s ;
+   
+
+}.contact-page .contact-area .input:hover{
+    
+    box-shadow: 12px 28px 30px rgba(255, 255, 255, 0.131);
+    transform:translateY(-12px) ;
+}
+.contact-page .contact-area  #send-mail:hover{
+    box-shadow: 12px 18px 20px rgba(255, 255, 255, 0.131);
+    transform:translateY(-2px) ;
+    padding: 8px 60px;
+    cursor: pointer;
+
+}
+.contact-page img{
+    float: right;
+    width: 30%;
+}
